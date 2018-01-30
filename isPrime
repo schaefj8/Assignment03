@@ -1,0 +1,30 @@
+/**
+ * Name: Josh Yaggi
+ * Assignment: Assignment03
+ * Due Date: 1/32/18
+ * Description: Used to test the if numbers are prime
+ */
+package assignment003;
+/**
+ * Checks if numbers are prime
+ * @author Josh
+ */
+public class IntegerPrimeness {
+	/**
+	 * Runs numbers through a loop to see if they are prime
+	 * @param number
+	 * @return
+	 */
+	boolean isPrime(int number) {
+	    //check if n is a multiple of 2
+	    if (number%2==0) return false;
+	    //if not, then just check the odds
+	    for(int i=3;i*i<=number;i+=2) {
+	        if(number%i==0)
+	            return false;
+	    }
+	    return true;
+	}
+}
+
+This will see if a number is prime, i was not sure what the BigInt part meant. If you could help me out, I would appreciate it!
