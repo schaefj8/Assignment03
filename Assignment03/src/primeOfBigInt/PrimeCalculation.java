@@ -1,8 +1,6 @@
 package primeOfBigInt;
 
 import java.math.BigInteger;
-
-public class TestPrime {
 **
  * Name: Josh Yaggi
  * Assignment: Assignment03
@@ -10,8 +8,9 @@ public class TestPrime {
  * Description: Used to test the if numbers are prime
  */
 
-package assignment03;
-  /**
+public class TestPrime {
+	/**
+	 * 
 	 * @param Huge A BigInteger
 	 * @return True or False if BigInteger is a prime
 	 */
